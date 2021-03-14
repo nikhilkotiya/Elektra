@@ -63,7 +63,7 @@
           {%endwith%}
           {% if user.is_authenticated %}
 
-          <li><a href="#">Welcome, {{ user.first_name }}</a></li>
+          <li><a href="#">Welcome, {{ user.first_name }}  {{user.last_name}}</a></li>
 
           <li style=" font-weight: 800;
                     font-size: 13px;
